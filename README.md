@@ -1,4 +1,4 @@
-# CDS490_OceanPlastics
+# CDS490: Ocean Plastics Project
 If you are a collaborator on this project, please click the watch button and star the repository so that you can get updates
 
 ## Description
