@@ -16,5 +16,9 @@ This repo is meant for the Census Bureau TOP 2020 on the topic of Ocean-bound pl
 ### Lib
 
 1. Pandas (For data wrangling and pre-processing)
-2. Matplotlib Pyplot (For data visualization)
+  a. Motivation: Pandas is essentially like R's dyplr package, making it really simple to put together data frames and clean up data.
+  b. Pandas has no cost.
+2. Dash (For visualization and ease of access)
+  a. Motivation: Dash has capabilities to use python and html to create web-based python dashboards. This will prove useful to show data.
+  b. There are no direct costs associated with Dash, with the only direct cost being the use of a web server.
 3. 
