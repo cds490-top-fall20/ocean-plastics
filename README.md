@@ -1,14 +1,34 @@
 # CDS490: Ocean Plastics Project
-If you are a collaborator on this project, please click the watch button and star the repository so that you can get updates
 
 ### Description
+
 This repo is meant for the Census Bureau TOP 2020 on the topic of Ocean-bound plastics.
 
-### Rules
+### Setup
 
-1. This project uses Python. Please mention any documentation/development libraries used here under the [Lib](#Lib) section of this file.
-2. Please do not push any data (.csv,json,etc.) that is larger than 100 MB in size. If we are planning to build a web-based dashboard, we can upload the project's data to the server, wherever that may be.
-3. 
+Create a virtual environment with (Python > 3.6) and install the project specific versions of the required packages.
+
+On Mac/Linux run the following in the Terminal from the project directory:
+
+```bash
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+```
+
+On Windows, run the following in your shell from the project folder:
+
+```shell
+py -m venv env
+.\env\Scripts\activate
+pip install -r requirements.txt
+```
+
+Make sure to run your code with the version of Python installed in the virtual enviroment ([how to check](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/#activating-a-virtual-environment))
+
+
+Raw data should be kept in the `data/raw` folder. However, it should not be included in the commit (the entire data folder is excluded from version control, except for the README files).
+
 
 ### Background
 
@@ -21,4 +41,3 @@ This repo is meant for the Census Bureau TOP 2020 on the topic of Ocean-bound pl
 2. Dash (For visualization and ease of access)
   * Motivation: Dash has capabilities to use python and html to create web-based python dashboards. This will prove useful to show data.
   * There are no direct costs associated with Dash, with the only direct cost being the use of a web server.
-3. 
