@@ -78,4 +78,4 @@ MLW.iloc[:,103]
 
 MLW.iloc[:,14:104].sum(axis=1)
 
-df.to_csv("data/processed/mlw__ec2020-format.csv")
+df.to_csv("data/processed/mlw__ec2020-format.csv", index = False)

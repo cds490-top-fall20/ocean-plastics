@@ -1,10 +1,6 @@
 # Project specific
-/data/raw/
-/data/processed/
-/data/final/
-!/data/raw/README.md
-!/data/processed/README.md
-!/data/final/README.md
+/data/raw/*/
+/data/processed/*csv
 
 # OS specific
 .DS_Store
