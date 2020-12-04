@@ -1,0 +1,150 @@
+html { font-family: Verdana; background-color: #111111;}
+body { margin: 10px;}
+.column {
+	background-color: #444444; 
+	display: inline-block; 
+	width: 48%; 
+	margin: 1%; 
+	vertical-align: middle; 
+	min-height: 600px; 
+	height: auto;
+	border-bottom: 1px solid black;
+	box-shadow: 1px 3px #444444;
+}
+.columnL { 
+	display: inline-block; 
+	width: 100%; 
+	vertical-align: middle; 
+	height: 500px;
+	background-color: #444444;
+}
+.fil { 
+	background-color: rgb(245,245,245); 
+	display: inline-block; 
+	width: 50%; 
+	vertical-align: middle; 
+	height: 500px;
+}
+.fil > h3 { 
+	margin: 15px auto; 
+	display: block; 
+	width: 95%;
+}
+
+.filObject { 
+	margin: 0 auto; 
+	display: block; 
+	width: 90%;
+	max-height: 100px;
+}
+
+.filObjectTitle {
+	display: block;
+	margin: 10px;
+	width: 100%;
+	text-align: center;
+	line-height: 20px;
+	color: #f5f5f5;
+}
+
+.description {
+	display: block;
+	margin: 10px auto;
+	width: 90%;
+	background-color: #888888;
+	line-height: 30px;
+	box-shadow: 1px 2px black;
+}
+
+.description a {
+	display:inline-block;
+	width: 50%;
+	line-height: 30px;
+	text-align: center;
+	bottom: 0;
+	text-decoration: none;
+	color: #f1f1f1;
+}
+.description p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.rc-slider-mark-text {
+	color: #f5f5f5;
+}
+
+.slider {
+	display:block;
+	width: 90%;
+}
+
+.DropDownFil {
+	margin: 0 auto;
+	display: block;
+	width: 90%;
+}
+
+.radioFilObject {
+	margin: 10px auto;
+	display: block;
+	width: 95%;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+.radioFilObject label {
+	color: #f5f5f5;
+}
+
+.bmap {
+	background-color: #444444;
+	width: 95%;
+	margin: 0 auto;
+}
+
+.bgraph {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.secondRow {
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	background-color: #333333;
+}
+
+.firstRow {
+	width: 100%;
+	background-color: #333333;
+}
+
+.spacer {
+	background-color: black;
+	min-height: 20px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+.title {
+	margin: 0 auto;
+	display: block;
+	background-color: #333333;
+	color: #f5f5f5;
+	line-height: 50px;
+	text-align: center;
+	box-shadow: 1px 2px black;
+}
+
+.titleWOShadow {
+	font-size: 26px;
+	display: block;
+	line-height: 50px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 0;
+	color: #f5f5f5;
+}
